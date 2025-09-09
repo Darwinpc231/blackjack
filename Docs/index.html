@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Black Jack - vite</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script type="module" crossorigin src="/assets/index-Bc98agsS.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-D1IrKrCU.css">
+</head>
+<body>
+    <div class="container">
+        <header class="titulo">
+            🃏 BLACKJACK 🃏
+        </header>
+
+        <div class="row mt-2">
+            <div id="divBotones" class="col text-center">
+                <button id="btnNuevo" class="btn btn-danger">🎮 Nuevo Juego</button>
+                <button id="btnPedir" class="btn btn-primary">🎯 Pedir Carta</button>
+                <button id="btnDetener" class="btn btn-primary">✋ Detener</button>
+            </div>
+        </div>
+
+        <div class="row container">
+            <div class="col">
+                <h1>👤 Jugador 1 - <small id="puntosJugador">0</small></h1>
+                <div id="jugador-cartas" class="cartas-container">
+                    <!-- Las cartas aparecerán aquí -->
+                </div>
+            </div>
+        </div>
+
+        <div class="row container mt-2">
+            <div class="col">
+                <h1>🤖 Computadora - <small id="puntosComputadora">0</small></h1>
+                <div id="computadora-cartas" class="cartas-container">
+                    <!-- Las cartas aparecerán aquí -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="mensaje" class="mensaje"></div>
+    <div id="app"></div>
+</body>
+</html>
